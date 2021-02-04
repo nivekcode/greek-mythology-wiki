@@ -36,10 +36,14 @@ img {
   color: #cbcbcb;
   display: block;
   transition: 0.3s;
-}
 
-.sidenav a:hover {
-  color: #f1f1f1;
+  &:active {
+   color: white;
+  }
+
+  &:hover {
+    color: #f1f1f1;
+  }
 }
 
 #main {

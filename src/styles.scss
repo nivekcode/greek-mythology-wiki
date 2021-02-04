@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.wiki-card {
+  margin: 50px;
+  padding: 30px;
+  width: 1000px;
+  border-radius: 20px;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1),
+  0 3px 6px 0 rgba(0, 0, 0, 0.15), inset 0 -2px 0 0 #f8f8f6;;
+}
+
+.wiki-card-heading {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin-left: 20px;
+  }
+}
