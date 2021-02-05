@@ -13,7 +13,5 @@ const routes: Routes = [{ path: '', component: AchillesComponent }];
 })
 export class AchillesRoutingModule {
 
-  constructor(private gmIconRegistry: GmIconsRegistry) {
-    this.gmIconRegistry.registerIcons([gmIconsAchilles]);
-  }
+
 }
