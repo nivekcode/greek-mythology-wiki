@@ -2,11 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import {GmIconsModule, GmIconsRegistry} from 'ng-greek-mythology-icons';
-import {gmIconsAchilles} from 'greek-mythology-icons';
 
 import { AchillesRoutingModule } from './achilles-routing.module';
 import { AchillesComponent } from './achilles.component';
-
+import {gmIconsAchilles} from 'greek-mythology-icons';
 
 @NgModule({
   declarations: [AchillesComponent],
@@ -17,7 +16,8 @@ import { AchillesComponent } from './achilles.component';
   ]
 })
 export class AchillesModule {
+
   constructor(private gmIconRegistry: GmIconsRegistry) {
-    this.gmIconRegistry.registerIcons([gmIconsAchilles]);
+    gmIconRegistry.registerIcons([gmIconsAchilles]);
   }
 }
